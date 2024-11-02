@@ -4,11 +4,9 @@ const Navbar = () => {
 
   const links = <>
   <li><NavLink to="/">Home</NavLink></li>
-  <li><a>Contac</a></li>
-  <li><a>Blog</a></li>
+  <li><NavLink to='/contac'>Contac</NavLink></li>
+  <li><NavLink to="/blog">Blog</NavLink></li>
   </>
-
-
 
   return (
     <div className="navbar bg-base-100">
